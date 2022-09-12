@@ -7,7 +7,7 @@ ms.date: 02/15/2022
 
 # Environment variables and app settings in Azure App Service
 
-In [Azure App Service](overview.md), certain settings are available to the deployment or runtime environment as environment variables. Some of these settings can be customized when you set them manually as [app settings](configure-common.md#configure-app-settings). This reference shows the variables you can use or customize.
+In [Azure App Service](overview.md), certain settings are available to the deployment or runtime environment as environment variables. Some of these settings can be customized when you set them manually as [app settings](configure-common.md#configure-app-settings). Please note that any add/update/delete operation on environmental variables will restart the application (App service). This reference shows the variables you can use or customize.
 
 ## App environment
 
